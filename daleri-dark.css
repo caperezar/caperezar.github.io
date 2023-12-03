@@ -21,7 +21,7 @@ body {background:#1a1a1a url(img/body-bg.gif) top center repeat-y; color:#eee; f
 .searchbox input {background:#2a2a2a; padding:3px 0 3px 5px; margin:0; width:180px; color:#eee; border:1px solid #888;}
 
 /* Header */
-#header {background: #333 url(img/pic-min_3.jpg) top center no-repeat; color:#eee; margin:0 auto 20px auto; padding:0; text-align:left; width:960px; height:160px;}
+#header {background: #333 url(img/UT.jpg) top center no-repeat; color:#eee; margin:0 auto 20px auto; padding:0; text-align:left; width:960px; height:160px;}
 #header h2, #header h3 {font-size:1.6em; color:#eee;}
 #headerleft {clear:both; width:240px; height:190px; float:left; padding:9px 0 0 10px; overflow:auto;}
 #headerright p, #headerright ul, #headerright ol, #headerright div, #headerright table {text-align:left; padding:0; margin:0 0 5px 0; color:#eee;}
