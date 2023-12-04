@@ -1,28 +1,19 @@
-/*
-Original design: Daleri Dark (v1.6 - Sep 11, 2012) - A free xhtml/css website template by Andreas Viklund.
-For more information, see http://andreasviklund.com/templates/daleri-dark/
-*/
-
 /* Body */
 * {margin:0; padding:0;}
-body {background:#1a1a1a url(img/body-bg.gif) top center repeat-y; color:#eee; font:85% "Trebuchet MS",Verdana,sans-serif; line-height:1.3em; text-align:center; padding-bottom:20px;}
+body {background:#d3d3d3; color:#000000; line-height:1.3em; text-align:center; padding-bottom:20px;}
 
 /* Top */
 #top {padding:1; width:960px; margin:10px auto 5px auto;}
 #topleft {width:960px; float:left; margin:0; text-align:left;}
 #topleft h1 {font-size:2.4em; line-height:0.9em; margin:5px 0; padding:0;}
 #topleft h1 a {font-weight:400;}
-#topleft p, #topright p {margin:0 0 5px 0; padding:0; color:#ccc;}
+#topleft p, #topright p {margin:0 0 5px 0; padding:0; color:#000000;}
 #topright {width:250px; padding:0; float:right; text-align:right; margin:0;}
 
-/* Searchbox */
-.searchbox {margin:10px 0 10px 0; padding:0;}
-.searchbox label {color:#ddd;}
-.searchbox input {background:#2a2a2a; padding:3px 0 3px 5px; margin:0; width:180px; color:#eee; border:1px solid #888;}
 
 /* Header */
-#header {background: #333 url(img/UT.jpg) top center no-repeat; color:#eee; margin:0 auto 20px auto; padding:0; text-align:left; width:960px; height:300px;}
-#header h2, #header h3 {font-size:1.6em; color:#eee;}
+#header {background: #d3d3d3 url(img/UT.jpg) top center no-repeat; color:#000000; margin:0 auto 20px auto; padding:0; text-align:left; width:960px; height:300px;}
+#header h2, #header h3 {font-size:1.6em; color:#000000;}
 #headerleft {clear:both; width:240px; height:190px; float:left; padding:9px 0 0 10px; overflow:auto;}
 #headerright p, #headerright ul, #headerright ol, #headerright div, #headerright table {text-align:left; padding:0; margin:0 0 5px 0; color:#eee;}
 #headerleft li {list-style:none; margin:0 0 2px 0;}
@@ -34,7 +25,7 @@ body {background:#1a1a1a url(img/body-bg.gif) top center repeat-y; color:#eee; f
 #wrap {margin:0 auto; padding:0; text-align:left; width:960px;}
 
 /* Headers */
-h2, h3, h4 {margin:0 0 15px; color:#fff; font-weight:normal;}
+h2, h3, h4 {margin:0 0 15px; color:#000000; font-weight:normal;}
 
 /* Sidebar */
 #sidebar {margin:0 0 5px 0; float:right; width:180px; padding:0;}
@@ -51,8 +42,8 @@ h2, h3, h4 {margin:0 0 15px; color:#fff; font-weight:normal;}
 
 /* Menu buttons */
 #sidebar ul.menubuttons li {list-style:none; width:180px; padding:0; margin:0 0 3px 0;}
-#sidebar ul.menubuttons li a {display:block; padding:3px 0 3px 5px; background-color:#3a3a3a; color:#ccc; border:1px solid #555; border-left:4px solid #666;}
-#sidebar ul.menubuttons li a:hover, #sidebar ul.menubuttons li.current_page_item a {background:#444; border:1px solid #888; border-left:4px solid #f29450;}
+#sidebar ul.menubuttons li a {display:block; padding:3px 0 3px 5px; background-color:#c3c3c3; color:#000000; border:1px solid #c3c3c3; border-left:4px solid #c3c3c3;}
+#sidebar ul.menubuttons li a:hover, #sidebar ul.menubuttons li.current_page_item a {background:#c3c3c3; border:1px solid #c3c3c3; border-left:4px solid #f29450;}
 #sidebar ul.menubuttons ul {margin:0; padding:2px 0 0 10px;}
 #sidebar ul.menubuttons ul li {width:170px;}
 #sidebar ul.menubuttons ul li a {font-size:1em; background:#2a2a2a; padding:1px 0 1px 5px;}
@@ -80,32 +71,22 @@ h2, h3, h4 {margin:0 0 15px; color:#fff; font-weight:normal;}
 #content .timestamp a {font-weight:normal;}
 
 /* Footer */
-#footer {clear:both; color:#eee; text-align:center; background-color:#2a2a2a; border:1px solid #555;}
+#footer {clear:both; color:#000000; text-align:center; background-color:#c3c3c3; border:1px solid #c3c3c3;}
 #footer p {margin:0; padding:10px 0;}
 #footer .credits {font-size:1.3em;}
-#footer a {color:#eee;}
-#footer a:hover {color:#fff; text-decoration:underline;}
+#footer a {color:#000000;}
+#footer a:hover {color:#000000; text-decoration:underline;}
 
-/* Comments */
-#comments {margin:20px 0 16px 0;}
-.comment {margin-bottom:10px; padding-bottom:6px; border-bottom:1px solid #555;}
-#content div.comment p.commenticon {margin:0 0 10px;}
-#content div.comment p {margin:0 0 4px;}
-#respond {margin:20px 0 0 0;}
-#respond p {margin:0 0 10px 0;}
-#respond input,#respond textarea {padding:4px; width:280px; background-color:#2a2a2a; color:#eee;}
-#respond textarea#comment {width:670px;}
-#respond input#submit {width:75px;}
-#respond input, #respond textarea {font: 100% "Trebuchet MS",Verdana,sans-serif; border: 1px solid #555;}
+
 
 /* Tags */
 blockquote {padding:5px 15px 2px 15px; margin:10px; border-left:4px solid #eee; color:#777;}
 blockquote p {padding:2px 0; margin:0; font-weight:bold;}
-code {padding:5px; font-size:1.2em; display:block; margin: 5px 0 16px 0; background-color:#2a2a2a; border:1px solid #555;}
+code {padding:5px; font-size:1.2em; display:block; margin: 5px 0 16px 0; background-color:#7f7f7f; border:1px solid #555;}
 
 /* Links */
-a {color:#f29450; font-weight:400; text-decoration:none;}
-a:hover {color:#f2c7a8; text-decoration:none;}
+a {color:#cb5500; font-weight:400; text-decoration:none;}
+a:hover {color:#f3a36b; text-decoration:none;}
 a img {border:0;}
 
 /* Float fix */
@@ -114,7 +95,7 @@ a img {border:0;}
 * html .contenttext p {overflow:hidden; width:99%;}
 
 /* Various classes */
-.feedlink {padding:2px 0 2px 18px; margin:0 0 0 12px; font-size: 1.1em; background: url(img/rss.png) center left no-repeat;}
+.feedlink {padding:2px 0 2px 18px; margin:0 0 0 12px; font-size: 1.1em;}
 .textright {text-align:right;}
 .textcenter {text-align:center;}
 .clear {visibility:hidden; clear:both;}
