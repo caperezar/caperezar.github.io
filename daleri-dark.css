@@ -12,7 +12,7 @@ body {background:#d3d3d3; color:#000000; line-height:1.3em; text-align:center; p
 
 
 /* Header */
-#header {background: #d3d3d3 url(img/UT_by_Ruby.jpeg) top center no-repeat; color:#d3d3d3; margin:0 auto 20px auto; padding:0; text-align:left; width:960px; height:370px;}
+#header {background: #d3d3d3 url(img/UT_by_Ruby.jpeg) top center no-repeat; color:#d3d3d3; margin:0 auto 20px auto; padding:0; text-align:left; width:960px; height:380px;}
 #header h2, #header h3 {font-size:1.6em; color:#000000;}
 #headerleft {clear:both; width:240px; height:190px; float:left; padding:9px 0 0 10px; overflow:auto;}
 #headerright p, #headerright ul, #headerright ol, #headerright div, #headerright table {text-align:left; padding:0; margin:0 0 5px 0; color:#eee;}
