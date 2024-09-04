@@ -12,14 +12,14 @@ body {
 /* Top */
 #top {
     padding: 20px 0;
-    width: 1200px;
+    width: 1100px;
     margin: 20px auto 10px auto;
     background-color: #f5f5f5;
     border-radius: 8px;
 }
 
 #topleft {
-    width: 1200px;
+    width: 1100px;
     float: left;
     margin: 0;
     text-align: left;
@@ -101,7 +101,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: left;
-    width: 1200px;
+    width: 1100px;
 }
 
 /* Headers */
@@ -188,7 +188,7 @@ code {
 
 /* Links */
 a {
-    color: #0056b3; /* Blue color for links */
+    color: #0056b3; /* Blue color for links */        
     font-weight: normal;
     text-decoration: none;
 }
@@ -264,13 +264,22 @@ a img {
     width: 100%; /* Sets the width of the right column to 70% */
 }
 
+.topics {
+    padding-left: 20px;
+}
+
+.topics li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+
 .team-members {
     padding-left: 20px;
     list-style-type: none; /* Removes bullet points */
 }
 
 .team-members li {
-    margin-bottom: 10px; /* Space between list items */
+    margin-bottom: 10px; /* Space between list items */    
 }
 
 h2 {
