@@ -103,3 +103,13 @@ a img {border:0;}
 .textcenter {text-align:center;}
 .clear {visibility:hidden; clear:both;}
 .hide {display:none;}
+
+/* Responsive layout for mobile */
+@media (max-width: 980px) {
+  #top, #topleft {width: 100%; box-sizing: border-box; padding: 0 12px;}
+  #wrap {width: 100%; padding: 14px; box-sizing: border-box;}
+  #content {float: none; width: 100%;}
+  #sidebar {float: none; width: 100%; margin: 20px 0 0 0; padding: 0;}
+  #sidebar ul.menubuttons li, #sidebar ul.menubuttons ul li {width: 100%;}
+  #header {width: 100%; height: 200px; background-size: cover;}
+}
